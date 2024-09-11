@@ -1,0 +1,37 @@
+/* Header.css */
+.header {
+  background-color: #FFFFFF; /* Use the same blue color */
+  padding: 20px;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .container a {
+  background-color: var(--accent-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li a {
+  color: var(--accent-color);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}

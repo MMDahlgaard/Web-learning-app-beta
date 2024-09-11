@@ -1,0 +1,78 @@
+/* VerticalNavbar.css */
+
+.vertical-navbar {
+  background-color: #1f2937; /* Dark gray background */
+  color: white;
+  width: 250px; /* Fixed width */
+  min-height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: fixed; /* Fix navbar position */
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-logo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #60a5fa; /* Hover effect */
+}
+
+.nav-items {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-item {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+}
+
+.nav-link .icon {
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  background-color: #3b82f6; /* Blue hover effect */
+  color: white;
+}
+
+.logout-btn {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 1.125rem;
+}
+
+.logout-btn:hover {
+  background-color: #ef4444; /* Red for logout */
+  color: white;
+}

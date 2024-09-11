@@ -1,0 +1,56 @@
+/* src/components/decks/FlashcardReview.css */
+
+.flashcard-review-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.flashcard-review-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 250px; /* Adjust this value based on the width of your VerticalNavbar */
+}
+
+.review-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.review-info {
+  margin-bottom: 12px;
+}
+
+.flashcard-container {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.flashcard-question {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.flashcard-answer {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-top: 16px;
+  background-color: #3490dc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2779bd;
+}

@@ -1,0 +1,13 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  padding-left: 250px; /* This matches the width of the fixed navbar */
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9fafb; /* Light background for the main content area */
+}
